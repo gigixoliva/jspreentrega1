@@ -15,18 +15,24 @@
     <!-----------dados del jugador------------>
     <section>
         <h2>your dice</h2>
-        <button onclick="dadosjugador">go!</button>
+        <button onclick="primerNumero()">go!</button>
     </section>
     <!-----------dados de la pc------------>
     <section>
         <h2>pc's dice</h2>
-
+        <button onclick="segundoNumero()">go!</button>
     </section>
     <!--------ganador---------->
     <section>
-        <h3>
-            
-        </h3>
+        <div>
+            <h2>then...</h2>
+            <button onclick="compare()">judge!</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>another round?</h2>
+        <button onclick="refreshGame()">play again</button>
     </section>
     <!-------------------------Js script------------------------------>
     <script src="./dados.js"></script>
